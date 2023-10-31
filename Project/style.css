@@ -1,0 +1,300 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+}
+
+
+.a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #db94ca;
+    height: 12vh;
+}
+.menu{
+    display: contents;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.button{
+    padding: 15px 15px 15px 15px;
+    background: #a1a1a1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.img2{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/lg.jpg");
+    width: auto;
+    background-size: cover;
+    height: 55vh;
+    background-position: right;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+}
+.Bar{
+    background: #6be2c4;
+    padding: 20px;
+    width: 70%;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    width:1100px; 
+      left:50%; 
+      transform:translate(-50%,-30%); 
+}
+.h1{
+    font-size: 30px;
+    color: #ffffff;
+    font-family : sans-serif;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+.para{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.span{
+    display: flex;
+    transform: rotateY(33deg);
+    margin: auto;
+}
+.bt{
+    color: #5d93c1;
+    background: none;
+    border: none;
+    font-size: large;
+}
+.span_button{
+    margin-top: -45px;
+}
+.BT{
+    background: bisque;
+    padding: 10px;
+    border: none;
+}
+.pr{
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
+}
+.input_text{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+.container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .fields .input-field{
+    display: flex;
+    width: calc(80% / 4 - 1px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+form .fields .inputField{
+    display: flex;
+    width: calc(40% / 4 - 15px);
+    flex-direction: column;
+    margin: 10px ;
+}
+form .fields .input_field{
+    display: contents;
+}
+.input-field label{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    font-family: sans-serif;
+}
+.inputField label{
+    font-size: 15px;
+    font-family: sans-serif;
+        font-weight: 700;
+        color: #000000;
+}
+.input_field label{
+    font-size: 15px;
+    font-family: sans-serif;
+        font-weight: 700;
+        color: #000000;
+}
+.input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.inputField input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.input_field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    width: 65px;
+    margin: 10px 0px 0px 5px;
+}
+.btn{
+    display: inline-block;
+    width: 187px;
+}
+.button1{
+    border: 1px;
+    border-style: solid;
+    padding: 8px 15px 8px 15px;
+    color: #4d4d4d;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+    border-radius: 1px;
+    border-color: #969696;
+}
+.section3{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    white-space: pre-line;
+    white-space: pre-line;
+    margin: 100px;
+}
+.content{
+flex: 50%;
+}
+.photo{
+    flex: 50%;
+}
+.pr{
+    color: #686868;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-right: 30px;
+}
+.h3{
+    text-align: center;
+    font-size: 25px;
+    color: #494949;
+    font-family :Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.photo1{
+    display: flex;
+    justify-content: center;
+}
+.content1{
+    margin: -120px 0px 0px 0px;
+    padding-bottom: 2.5rem;
+    padding-top: 7.5rem;
+    background: #6be2c4;
+    display: flex;
+    justify-content: center;
+
+}.para_lines{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    color: white;
+    max-width: 50rem;
+    font-size: 20px;
+    white-space: pre-line;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+.hd{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                        /* about page css */
+.img3{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/pic.jpg");
+    width: auto;
+    background-size: cover;
+    height: 70vh;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+}
+             /* srevice page css */
+.img4{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/pht.jpeg");
+    width: auto;
+    background-size: cover;
+    height: 70vh;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+} 
+ /* Patient Info page css */
+.img5{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/cn.jpg");
+    width: auto;
+    background-size: cover;
+    height: 65vh;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+    background-position: bottom;
+}
+        /* Conditions page css */
+.img6{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/pr.jpg");
+    width: auto;
+    background-size: cover;
+    height: 65vh;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+    background-position: center;
+}
+          /* Providers page css */
+.img7{
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project/photos/pct.jpg");
+    width: auto;
+    background-size: cover;
+    height: 65vh;
+    background-blend-mode: overlay;
+    background-color: #5e5e5e;
+    background-position: center;
+}

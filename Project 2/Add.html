@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.getElementById('form');
+            var scoreElement = document.getElementById('score');
+            var questionElement = document.getElementById('question');
+            var inputElement = document.getElementById('input');
+            var score = 0;
+
+            function generateQuestion() {
+                var num1 = Math.floor(Math.random() * 10); // Random number between 0 and 9
+                var num2 = Math.floor(Math.random() * 10);
+                var answer = num1 + num2;
+                
+                questionElement.innerText = 'which number cames when Add ' + num1 + ' + ' + num2 + '?';
+                questionElement.dataset.answer = answer;
+            }
+            
+            generateQuestion(); // Initial question generation
+        });
+            
+            form.addEventListener('agree', function(event) {
+                event.preventDefault(); // Prevent form submission
+                
+                var answer = parseInt(inputElement.value);
+                
+                if (answer === parseInt(questionElement.dataset.answer)) {
+                    score++;
+                    scoreElement.innerText = 'Score: ' + score;
+                    questionElement.innerText = 'Correct! Good job!';
+                } else {
+                    questionElement.innerText = 'Oops! Try again.';
+                }
+                
+                generateQuestion(); // Generate a new question
+                inputElement.value = ''; // Clear the input field
+            });
+    </script>
+</head>
+<body>
+    <form class="form" id="form">
+        <h4 class="score" id="score">Score: 0</h4>
+        <h1 class="heading" id="question" data-answer=""></h1>
+        <input type="text" class="input_text" id="input" placeholder="Answer" autofocus>
+        <button type="submit" class="button">Agree</button>
+    </form>  
+</body>
+</html>

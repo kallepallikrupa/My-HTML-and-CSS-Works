@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Clock</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function updateClock() {
+      var currentTime = new Date();
+      var hours = currentTime.getHours();
+      var minutes = currentTime.getMinutes();
+      var seconds = currentTime.getSeconds();
+      var ampm = hours >= 12 ? 'PM' : 'AM';
+
+      // Pad the minutes and seconds with leading zeros
+      minutes = (minutes < 10 ? '0' : '') + minutes;
+      seconds = (seconds < 10 ? '0' : '') + seconds;
+
+      // Update the clock elements
+      document.getElementById('hours').innerHTML = hours;
+      document.getElementById('min').innerHTML = minutes;
+      document.getElementById('sec').innerHTML = seconds;
+      document.getElementById('ampm').innerHTML = ampm;
+    }
+
+    // Call updateClock function every second
+    setInterval(updateClock, 1000);
+  </script>
+</head>
+<body>
+  <h2 class="Digital Clock">Digital Clock</h2>
+  <div class="Clock">
+    <div class="am">
+      <span id="ampm">AM</span>
+    </div>
+    <div class="seconds">
+      <span id="sec">00</span>
+      <span class="text">Sec</span>
+    </div> 
+    <div class="minutes">
+      <span id="min">00</span>
+      <span class="text">Min</span>
+    </div> 
+    <div class="hours">
+      <span id="hours">00</span>
+      <span class="text">Hours</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color:  rgb(73 81 84);
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project 1/img.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-blend-mode: overlay;   
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family :'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 0px 70px;
+    font-weight: 900;
+}
+.Clock{
+    display: flex;
+    color: #ffffff;
+}
+.Clock div {
+margin: 10px;
+}
+
+.Clock span {
+width: 100px;
+height: 70px;
+opacity: 10;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+text-shadow: 5px rgb(248, 125, 125);
+font-family: math;
+}
+.Clock .text{
+    height: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: white;
+}
+.am{
+    align-items: center;
+    display: grid;
+}
+.Clock #ampm{
+    width: 55px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: #ff54d4;
+    font-family: math;
+    border: 2px solid;
+    border-color: white;
+}
+.seconds{
+    background: #2641989e;
+    opacity: 0.7;
+    border: 2px solid;
+    border-color: white;
+}.minutes{
+    background: #ff54d4;
+    border: 2px solid;
+    border-color: white;
+}.hours{
+    background: #2641989e;
+    opacity: 0.7;
+    border: 2px solid;
+    border-color: white;
+}
+#sec{
+    color: white;
+    font-size: 50px;
+    font-family: fangsong;
+}#min{
+    color: white;
+    font-size: 50px;
+    font-family: fangsong;
+}#hours{
+    color: white;
+    font-size: 50px;
+    font-family: fangsong;
+}

@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-image: url("C:/Users/DELL/OneDrive/New folder/OneDrive/Desktop/My Projects on HTML/Project 2/bkg.jpg");
+    background-size: cover;
+}
+
+.from{
+    background: antiquewhite;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(95 168 200);
+    border-width: 7px 0px 0px 0px;
+    border-style: solid;
+    border-color:rgb(19, 17, 17); 
+}
+h4{
+    font-family: sans-serif;
+    text-align: start;
+    color: #fb2a63;
+    text-decoration: underline;
+    font-style: unset;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1.heading{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #180d90;
+}
+input.input_text{
+    width: 300px;
+    height: 20px;
+    border-color: #e5dddf52;
+    padding: 5px 10px 5px 10px;
+    border-style: ridge;
+    border-width: unset;
+}
+input{
+    display: block;
+    margin: auto;
+}
+input:hover{
+background-color: #fb2a6259;
+color: rgb(19, 14, 14);
+border-style:solid 2px ;
+border-color: #ffffff;
+}
+button{
+    color: #1e2f81;
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    background: #bdc4f2;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bolder;
+    border: 3px solid;
+    border-style: outset;
+}
+.button:hover {
+color: #ffffff;
+background-color: #ef71f3;
+border-radius: 3px;
+border-style: double ;
+border-color: rgb(255, 255, 255);
+}
+
+.button:active {
+  background-color: #ffffff;
+  transform: translateY(5px);
+  color: #000000;
+  border :black dashed 2px;
+}
